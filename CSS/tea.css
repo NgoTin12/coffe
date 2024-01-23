@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --grenn-color: #0c713d;
+  --gray-color: #666666;
+}
+.menu1 ul {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 3px 0 rgb(221, 206, 206);
+}
+
+.menu1 ul li {
+  list-style-type: none;
+  padding: 12px 16px;
+}
+.menu1 ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+a.login {
+  font-weight: bold;
+  margin-right: 5px;
+}
+a.cart {
+  border: 1px solid var(--grenn-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: gray;
+  margin-left: 10px;
+}
+a.cart:hover {
+  color: var(--grenn-color);
+  transition: 0.5s ease;
+}
+.menu1 ul li:last-child {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 50px;
+}
+.menu1 .logo {
+  transform: translate(450px);
+}
+/* NAV */
+nav {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 3px 6px 0 rgb(243, 240, 235);
+}
+nav ul {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  margin: auto;
+  padding: 12px 16px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--gray-color);
+  font-family: Arial;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: var(--grenn-color);
+}
+.banner {
+  background-image: url(../IMG/teabanner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.banner h3 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  visibility: hidden;
+}
+.menu2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.menu2 a {
+  text-decoration: none;
+  color: rgb(160, 159, 159);
+  padding: 3px;
+}
+.menu2 a:last-child {
+  color: var(--gray-color);
+}
+.menu2 a:hover {
+  color: red;
+  transition: 0.5s ease;
+}
+.text {
+  text-align: center;
+  margin-top: 30px;
+  color: var(--grenn-color);
+  text-transform: uppercase;
+}
+.img {
+  text-align: center;
+  margin-top: 10px;
+}
+.hover {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.hover a {
+  text-decoration: none;
+  color: var(--gray-color);
+  font-size: 23px;
+  padding: 20px;
+}
+.hover a:hover {
+  color: var(--grenn-color);
+  border-top: 1px solid #0c713d;
+  border-bottom: 1px solid #0c713d;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.img {
+  text-align: center;
+  margin-top: 20px;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+.preamble {
+  width: 970px;
+  margin: 60px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 22px;
+  text-align: justify;
+}
+.container {
+  display: flex;
+  width: 1150px;
+  margin: auto;
+  margin-top: 30px;
+  align-items: center;
+}
+.container .text1 {
+  line-height: 25px;
+  font-size: 17px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 20px;
+}
+
+.container .text1 h2 {
+  margin-bottom: 15px;
+}
+
+.container .text3 h2 {
+  margin-bottom: 25px;
+}
+.container .text3 {
+  font-size: 17px;
+  line-height: 25px;
+  margin-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* footer */
+
+.flast {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 20px;
+}
+.flast .foot-1 {
+  width: 600px;
+  margin-left: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 23px;
+  font-size: 15px;
+}
+.flast .foot-2 {
+  line-height: 20px;
+  margin-left: 20px;
+}
+.flast .foot-2 span {
+  border: 1px solid #0c713d;
+  width: 60px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+.flast .foot-2 input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #0c713d;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+input::placeholder {
+  color: var(--grenn-color);
+  padding-left: 5px;
+}
+.flast .foot-2 ul li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.flast .foot-2 a {
+  text-decoration: none;
+  color: #666666;
+}
+.flast .foot-2 a:hover {
+  color: var(--grenn-color);
+}
+.flast .foot-3 {
+  margin-left: 100px;
+  text-align: right;
+}
+.flast .foot-3 a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--gray-color);
+}
+.flast .foot-3 img {
+  margin-left: 20px;
+}
+.lastfull {
+  background-color: black;
+  color: white;
+  padding: 5px 0px;
+}
